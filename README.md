@@ -14,6 +14,7 @@ Este proyecto utiliza cuadros de mando interactivos creados con Power BI Desktop
 
 1. **Instalación**: Descarga e instala Power BI Desktop. Ten en cuenta que se requiere una cuenta educativa o empresarial de Microsoft para la descarga.
 2. **Uso**: Una vez instalado, puedes abrir los archivos de los cuadros de mando para explorar las visualizaciones de datos.
+3. [Vídeo del Cuadro de Mandos](https://youtu.be/e4oLa0Sl2zw)
 
 #### Características de los Cuadros de Mando
 Los cuadros de mando están diseñados para ser interactivos y fáciles de usar, ofreciendo insights sobre datos de población y asignaciones de recursos hídricos. Aquí tienes algunos consejos para mejorar tu experiencia:
@@ -40,6 +41,7 @@ This project utilizes interactive dashboards created with Power BI Desktop. To a
 
 1. **Installation**: Download and install Power BI Desktop. Note that a Microsoft educational or business account is required for download.
 2. **Usage**: Once installed, you can open the dashboard files to explore the data visualizations.
+3. [Dashboard Video](https://youtu.be/e4oLa0Sl2zw)
 
 #### Dashboard Features
 The dashboards are designed to be interactive and user-friendly, offering insights into population data and water resource allocations. Here are some tips to enhance your experience:
