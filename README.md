@@ -1,6 +1,6 @@
 # Repositorio Archivos-TFG
 
-Bienvenido al repositorio TFG-Files. Este repositorio alberga todos los archivos y recursos esenciales utilizados en el desarrollo de mi Proyecto Final de Grado (Trabajo de Fin de Grado - TFG). Nuestro objetivo es proporcionar una colección integral de datos, scripts y herramientas necesarias para comprender y replicar los análisis presentados en el proyecto.
+Bienvenido al repositorio TFG-Files. Este repositorio alberga todos los archivos y recursos esenciales utilizados en el desarrollo de mi Proyecto Final de Grado (TFG). Mi objetivo es proporcionar una colección integral de datos, scripts y herramientas necesarias para comprender y replicar los análisis presentados en el proyecto.
 
 ## Estructura del Repositorio
 
@@ -26,7 +26,7 @@ Los cuadros de mando están diseñados para ser interactivos y fáciles de usar,
 
 # TFG-Files Repository
 
-Welcome to the TFG-Files repository! This repository houses all the essential files and resources used in the development of my Final Degree Project (Trabajo de Fin de Grado - TFG). Our goal is to provide a comprehensive collection of data, scripts, and tools necessary for understanding and replicating the analyses presented in the project.
+Welcome to the TFG-Files repository! This repository houses all the essential files and resources used in the development of my Final Degree Project (TFG). My goal is to provide a comprehensive collection of data, scripts, and tools necessary for understanding and replicating the analyses presented in the project.
 
 ## Repository Structure
 
