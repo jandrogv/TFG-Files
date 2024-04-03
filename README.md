@@ -10,7 +10,7 @@ Bienvenido al repositorio TFG-Files. Este repositorio alberga todos los archivos
 - **Scripts**: Esta carpeta incluye los scripts en R utilizados para el procesamiento de datos, análisis y visualización.
 
 ### Cuadros de Mando
-Este proyecto utiliza cuadros de mando interactivos creados con Power BI Desktop. Para acceder e interactuar con estos cuadros de mando, por favor sigue las instrucciones a continuación:
+Este proyecto utiliza cuadros de mando interactivos creados con Power BI Desktop. Los cuadros de mando disponibles son Dashboard_Español, que está en español, y Dashboard_Multilanguage, que es el mismo cuadro de mando pero puede ser traducido al inglés, francés, italiano, alemán y español. Para acceder e interactuar con estos cuadros de mando, por favor sigue las instrucciones a continuación:
 
 1. **Instalación**: Descarga e instala Power BI Desktop. Ten en cuenta que se requiere una cuenta educativa o empresarial de Microsoft para la descarga.
 2. **Uso**: Una vez instalado, puedes abrir los archivos de los cuadros de mando para explorar las visualizaciones de datos.
@@ -37,7 +37,7 @@ Welcome to the TFG-Files repository! This repository houses all the essential fi
 - **Scripts**: This folder includes the R scripts used for data processing, analysis, and visualization.
 
 ### Dashboards
-This project utilizes interactive dashboards created with Power BI Desktop. To access and interact with these dashboards, please follow the instructions below:
+This project utilizes interactive dashboards created with Power BI Desktop. The dashboards available are Dashboard_Español, which is in Spanish, and Dashboard_Multilanguage, the same dashboard but can be translated into English, French, Italian, German, and Spanish. To access and interact with these dashboards, please follow the instructions below:
 
 1. **Installation**: Download and install Power BI Desktop. Note that a Microsoft educational or business account is required for download.
 2. **Usage**: Once installed, you can open the dashboard files to explore the data visualizations.
