@@ -1500,57 +1500,6 @@ ggplot(filter(ccaa_agua,Año == 2020)) +
 
 
 
-# Analisis de Correlacion
-
-## Graficos de Dispersion de la Poblacion respecto del Volumen de Agua Suministrada
-
-```{r,fig.width=6, fig.height=3, echo = FALSE}
-ggplot(Agua_Total_España,aes(x=Poblacion,y=`Volumen de agua suministrada`,group = 1)) +
-  geom_point() +
-  scale_x_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) + 
-  scale_y_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) + 
-  labs(x="poblacion",
-       y="Suministro de Agua (m3) ",
-       title = "Suministro de Agua en Hogares vs Poblacion")
-```
-
-## Graficos de Dispersion de la Poblacion respecto del Agua en Hogares
-
-```{r,fig.width=6, fig.height=3, echo = FALSE}
-ggplot(Agua_Total_España,aes(x=Poblacion,y=Hogares,group = 1)) +
-  geom_point() +
-  scale_x_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) +
-  scale_y_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) + 
-  labs(x="poblacion",
-       y="Suministro de Agua (m3) ",
-       title = "Suministro de Agua en Hogares vs Poblacion")
-```
-
-
-## Graficos de Dispersion de la Poblacion respecto del Agua Potable Disponible
-
-```{r,fig.width=6, fig.height=3, echo = FALSE}
-ggplot(Agua_Total_España,aes(x=Poblacion,y=Disponible_para_Potabilizacion,group = 1)) +
-  geom_point() +
-  scale_x_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) +
-  scale_y_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) + 
-  labs(x="poblacion",
-       y="Suministro de Agua (m3)",
-       title = "Agua Disponible Potable vs Poblacion")
-```
-
-## Graficos de Dispersion de la Poblacion respecto del Agua No Potable Disponible
-
-```{r,fig.width=6, fig.height=3, echo = FALSE}
-ggplot(Agua_Total_España,aes(x=Poblacion,y=Disponible_no_Potabilizada,group = 1)) +
-  geom_point() +
-  scale_x_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) +
-  scale_y_continuous(labels = comma_format(scale = 1e-6, suffix = " M")) + 
-  labs(x="poblacion",
-       y="Suministro de Agua (m3)",
-       title = "Agua no potable vs Poblacion")
-```
-
 \newpage
 
 
