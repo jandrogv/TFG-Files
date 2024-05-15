@@ -678,29 +678,29 @@ Agua_España = Agua_España %>%
 Agua_España = Agua_España %>%
     group_by(Comunidad) %>%
     mutate(
-        Variacion_Suministro_2 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 1)) / lag(`Volumen de agua suministrada`, 1) * 100,2),
-        Variacion_Suministro_4 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 2)) / lag(`Volumen de agua suministrada`, 2) * 100,2),
-             Variacion_Suministro_10 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 7)) / lag(`Volumen de agua suministrada`, 7) * 100,2),
+        Variacion_Suministro_2 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 2)) / lag(`Volumen de agua suministrada`, 2) * 100,2),
+        Variacion_Suministro_4 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 4)) / lag(`Volumen de agua suministrada`, 4) * 100,2),
+             Variacion_Suministro_10 = round((`Volumen de agua suministrada` - lag(`Volumen de agua suministrada`, 10)) / lag(`Volumen de agua suministrada`, 10) * 100,2),
         
-        Variacion_Suministro_real_2 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 1)) / lag(`Volumen de agua registrada y distribuida`, 1) * 100,2),
-        Variacion_Suministro_real_4 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 2)) / lag(`Volumen de agua registrada y distribuida`, 2) * 100,2),
-             Variacion_Suministro_real_10 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 7)) / lag(`Volumen de agua registrada y distribuida`, 7) * 100,2),
+        Variacion_Suministro_real_2 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 2)) / lag(`Volumen de agua registrada y distribuida`, 2) * 100,2),
+        Variacion_Suministro_real_4 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 4)) / lag(`Volumen de agua registrada y distribuida`, 4) * 100,2),
+             Variacion_Suministro_real_10 = round((`Volumen de agua registrada y distribuida` - lag(`Volumen de agua registrada y distribuida`, 10)) / lag(`Volumen de agua registrada y distribuida`, 10) * 100,2),
         
-        Variacion_Hogares_2 = round((Hogares - lag(Hogares, 1)) / lag(Hogares, 1) * 100,2),
-        Variacion_Hogares_4 = round((Hogares - lag(Hogares, 2)) / lag(Hogares, 2) * 100,2),
-        Variacion_Hogares_10 = round((Hogares - lag(Hogares, 7)) / lag(Hogares, 7) * 100,2),
+        Variacion_Hogares_2 = round((Hogares - lag(Hogares, 2)) / lag(Hogares, 2) * 100,2),
+        Variacion_Hogares_4 = round((Hogares - lag(Hogares, 4)) / lag(Hogares, 4) * 100,2),
+        Variacion_Hogares_10 = round((Hogares - lag(Hogares, 10)) / lag(Hogares, 10) * 100,2),
         
-        Variacion_Consumo_Habitante_2 = round((Consumo_Habitante - lag(Consumo_Habitante, 1)) / lag(Consumo_Habitante, 1) * 100,2),
-        Variacion_Consumo_Habitante_4 = round((Consumo_Habitante - lag(Consumo_Habitante, 2)) / lag(Consumo_Habitante, 2) * 100,2),
-        Variacion_Consumo_Habitante_10 = round((Consumo_Habitante - lag(Consumo_Habitante, 7)) / lag(Consumo_Habitante, 7) * 100,2),
+        Variacion_Consumo_Habitante_2 = round((Consumo_Habitante - lag(Consumo_Habitante, 2)) / lag(Consumo_Habitante, 2) * 100,2),
+        Variacion_Consumo_Habitante_4 = round((Consumo_Habitante - lag(Consumo_Habitante, 4)) / lag(Consumo_Habitante, 4) * 100,2),
+        Variacion_Consumo_Habitante_10 = round((Consumo_Habitante - lag(Consumo_Habitante, 10)) / lag(Consumo_Habitante, 10) * 100,2),
         
-        Variacion_Agua_Potable_2 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 1)) / lag(Disponible_para_Potabilizacion, 1) * 100,2),
-        Variacion_Agua_Potable_4 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 2)) / lag(Disponible_para_Potabilizacion, 2) * 100,2),
-        Variacion_Agua_Potable_10 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 7)) / lag(Disponible_para_Potabilizacion, 7) * 100,2),
+        Variacion_Agua_Potable_2 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 2)) / lag(Disponible_para_Potabilizacion, 2) * 100,2),
+        Variacion_Agua_Potable_4 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 4)) / lag(Disponible_para_Potabilizacion, 4) * 100,2),
+        Variacion_Agua_Potable_10 = round((Disponible_para_Potabilizacion - lag(Disponible_para_Potabilizacion, 10)) / lag(Disponible_para_Potabilizacion, 10) * 100,2),
         
-        Var_Agua_No_Pot_2 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 1)) / lag(Disponible_no_Potabilizada, 1) * 100,2),
-        Var_Agua_No_Pot_4 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 2)) / lag(Disponible_no_Potabilizada, 2) * 100,2),
-        Var_Agua_No_Pot_10 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 7)) / lag(Disponible_no_Potabilizada, 7) * 100,2),
+        Var_Agua_No_Pot_2 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 2)) / lag(Disponible_no_Potabilizada, 2) * 100,2),
+        Var_Agua_No_Pot_4 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 4)) / lag(Disponible_no_Potabilizada, 4) * 100,2),
+        Var_Agua_No_Pot_10 = round((Disponible_no_Potabilizada - lag(Disponible_no_Potabilizada, 10)) / lag(Disponible_no_Potabilizada, 10) * 100,2),
         )
 ```
 
